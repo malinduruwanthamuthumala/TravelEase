@@ -1,13 +1,16 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
+import Header from "../components/common/Header.jsx"
 
 export default function Home() {
   return (
     
       <div >
-        <p>Malindu</p>
-        <p><Link href="/about">About us</Link></p>
+        <Header>
+          <p>malindu</p>
+        </Header>
+        
       </div>
    
   );

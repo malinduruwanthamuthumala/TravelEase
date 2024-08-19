@@ -1,0 +1,75 @@
+/* Import a clean, modern font like Roboto or Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Apply the font to the entire side navbar */
+.side-navbar {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem; /* Smaller font size for a more compact look */
+  width: 250px;
+  height: 100vh;
+  background-color: #0d47a1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  overflow-y: auto;
+}
+
+.side-navbar-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.side-navbar-item {
+  width: 100%;
+  margin-bottom: 15px; /* Reduce margin to compact the items more */
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 20px; /* Adjust padding for a tighter look */
+  color: white;
+  cursor: pointer;
+  font-weight: 500; /* Medium font weight for better readability */
+}
+
+.menu-item:hover {
+  background-color: #1976d2;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-icon {
+  margin-right: 8px; /* Smaller margin for better alignment */
+  font-size: 1.2rem; /* Adjust icon size to match the smaller font */
+}
+
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  list-style-type: none;
+  padding-left: 20px; /* Reduce padding for a more compact submenu */
+}
+
+.submenu.open {
+  max-height: 300px; /* Adjusted max-height to match smaller font size */
+}
+
+.submenu li {
+  margin-bottom: 10px;
+}
+
+.submenu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.85rem; /* Even smaller font size for submenu items */
+}
+
+.submenu li a:hover {
+  text-decoration: underline;
+}
