@@ -77,3 +77,9 @@
 .navText{
     color:white;
 }
+
+.tripListTable{
+    width : 100%;
+    margin-top:40px;
+    padding:5px;    
+}

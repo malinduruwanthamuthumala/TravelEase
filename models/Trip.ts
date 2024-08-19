@@ -1,7 +1,7 @@
 import Location from "./Location";
-import Event from "./Event";
+import TripEvent from "./TripEvent";
 
-  export interface Trip {
+export default interface Trip {
     _id: string; // ObjectId as string
     tripId: string;
     title: string;

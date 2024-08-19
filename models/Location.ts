@@ -1,8 +1,9 @@
+import TripEvent from "./TripEvent";
+
 export default interface Location {
     locationId: string;
     name: string;
     description: string;
     totalBudget: number;
-    events: Event[]; // Array of events related to this location
+    events: TripEvent[]; // Array of TripEvent objects related to this location
   }
-  
