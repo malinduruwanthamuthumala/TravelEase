@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tripList{
+ margin-top: 40px;
+}
+
+.topmargin-30 {
+    margin-top:30px
+}
+
+.formInput_createTravelPlan{
+    padding:10px;
+}
+
+.topmargin-20 {
+    margin-top: 20px;
+}
+
+.align-right{
+    text-align: right;;
+}
